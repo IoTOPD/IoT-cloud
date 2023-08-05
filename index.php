@@ -52,7 +52,7 @@
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-light border" id="mainNav">
             <div class="container px-4 px-lg-5">
-                <a class="navbar-brand display-5 fw-bold" href="/">IoTPOD</a>
+                <a class="navbar-brand display-5 fw-bold" href="/">IoTOPD</a>
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto my-2 my-lg-0">
@@ -60,7 +60,7 @@
                         <li class="nav-item"><a class="nav-link" href="#contact">Contact Us</a></li>
                     </ul>
                 </div>
-                <a href="login.php" class="btn btn-primary btn-sm d-none d-lg-block ms-3">Dashboard Login</a>
+                <a href="ais-data.php" class="btn btn-primary btn-sm d-none d-lg-block ms-3">AIS Data</a>
             </div>
         </nav>
         <header>
@@ -77,7 +77,7 @@
                     </div>
                 </div>
                 <div class="d-lg-none d-grid">
-                    <a href="login.php" class="btn btn-primary btn-lg px-4 me-md-2">Dashboard Login</a>
+                    <a href="ais-data.php" class="btn btn-primary btn-lg px-4 me-md-2">AIS Data</a>
                   </div>
               </div>
             </div>
