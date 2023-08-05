@@ -60,7 +60,7 @@
                         <li class="nav-item"><a class="nav-link" href="#contact">Contact Us</a></li>
                     </ul>
                 </div>
-                <a href="ais-data.php" class="btn btn-primary btn-sm d-none d-lg-block ms-3">AIS Data</a>
+                <a href="ais-data/" class="btn btn-primary btn-sm d-none d-lg-block ms-3">AIS Data</a>
             </div>
         </nav>
         <header>
@@ -77,7 +77,7 @@
                     </div>
                 </div>
                 <div class="d-lg-none d-grid">
-                    <a href="ais-data.php" class="btn btn-primary btn-lg px-4 me-md-2">AIS Data</a>
+                    <a href="ais-data/" class="btn btn-primary btn-lg px-4 me-md-2">AIS Data</a>
                   </div>
               </div>
             </div>
