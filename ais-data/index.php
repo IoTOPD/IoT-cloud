@@ -99,7 +99,7 @@
 
                         <?php
                             $s_no=1;
-                            $sql = "SELECT * FROM ais_data_log ORDER BY date_added LIMIT 5000";
+                            $sql = "SELECT * FROM ais_data_log ORDER BY date_added DESC LIMIT 5000";
                             $result = mysqli_query($con1, $sql);
                             if ( mysqli_num_rows( $result ) > 0 ) {
                                 while($row = mysqli_fetch_array($result)) {
