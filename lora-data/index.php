@@ -28,7 +28,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>AIS Data | IoTOPD</title>
+        <title>LoRa Data | IoTOPD</title>
         <style>
             table, th, td {
                 border: 1px solid black;
@@ -39,7 +39,7 @@
     </head>
     <body>
         <div style="margin-left:5px;">
-            <h2>IoTOPD AIS Data</h2>
+            <h2>IoTOPD LoRa Data</h2>
             <br>
             <div> 
                 <form action="" method="post">
