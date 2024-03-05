@@ -59,6 +59,7 @@
                             <th scope="col">SHIPNAME</th>
                             <th scope="col">TYPE_COLOR</th>
                             <th scope="col">LAST_POS</th>
+                            <th scope="col">LAST_POS_STD</th>
                             <th scope="col">CODE2</th>
                             <th scope="col">COUNTRY</th>
                             <th scope="col">COUNT_PHOTOS</th>
@@ -103,6 +104,7 @@
                             $result = mysqli_query($con1, $sql);
                             if ( mysqli_num_rows( $result ) > 0 ) {
                                 while($row = mysqli_fetch_array($result)) {
+                                    // 20240305_1900H - AOA: added column to convert from microtime to standard "Y-m-d H:i:s" timestamp format
                                     echo "<tr>
                                             <td>".$s_no++."</td>
                                             <td>".$row["id"]."</td>
@@ -113,6 +115,7 @@
                                             <td>".$row["SHIPNAME"]."</td>
                                             <td>".$row["TYPE_COLOR"]."</td>
                                             <td>".$row["LAST_POS"]."</td>
+                                            <td>".date("Y-m-d H:i:s",$row["LAST_POS"])."</td>
                                             <td>".$row["CODE2"]."</td>
                                             <td>".$row["COUNTRY"]."</td>
                                             <td>".$row["COUNT_PHOTOS"]."</td>
